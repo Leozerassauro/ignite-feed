@@ -22,7 +22,7 @@
   </a>
   
   <div>
-    <img alt="" title="" src="" width="1400px" />
+    <img alt="" title="" src="https://github.com/Leozerassauro/ignite-feed/blob/master/image/ignite-feed-homepage.PNG" width="1400px" />
   </div>
 </p>
 
