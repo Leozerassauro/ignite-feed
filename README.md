@@ -34,8 +34,6 @@
   <a href="#memo-license">License</a>
 </p>
 
-</br>
-
 <h3 align="center">
   <div>
     <img alt="" width="700px" />
