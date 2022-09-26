@@ -5,7 +5,12 @@ import { Avatar } from "./Avatar";
 
 import styles from "./Comment.module.css";
 
-export function Comment({ content, onDeleteComment }) {
+interface CommentProps {
+  content: string;
+  onDeleteComment: (comment: string) => void;
+}
+
+export function Comment({ content, onDeleteComment }: CommentProps) {
   const [likeCount, setLikeCount] = useState(0);
 
   function handleDeleteComment() {
@@ -13,12 +18,12 @@ export function Comment({ content, onDeleteComment }) {
   }
 
   function handleLikeComment() {
-    setLikeCount(likeCount +1);
+    setLikeCount(likeCount + 1);
   }
 
   return (
     <div className={styles.comment}>
-      <Avatar hasBorder={false} src="https://github.com/1TATO.png" />
+      <Avatar hasBorder={false} src="https://github.com/1TATO.png"/>
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
